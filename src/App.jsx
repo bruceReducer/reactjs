@@ -7,6 +7,8 @@ import TicTacToe from "./TicTacToe";
 import Context from "./advanced_hooks/Context";
 import SafeDispatch from "./advanced_hooks/SafeDispatch";
 import ContextModuleFunctions from "./advanced_patterns/ContextModuleFunctions";
+import Practise from "./Practise";
+import CompoundComponents from "./advanced_patterns/CompoundComponents";
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       {/* <DispatchReducer /> */}
       {/* <Context /> */}
       {/* <SafeDispatch /> */}
-      <ContextModuleFunctions />
+      {/* <ContextModuleFunctions /> */}
+      {/* <CompoundComponents /> */}
+      <Practise />
     </>
   );
 }
